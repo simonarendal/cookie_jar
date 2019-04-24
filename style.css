@@ -1,0 +1,25 @@
+body {
+	background: white;
+	color: #333;
+	margin: 20vh auto;
+	text-align: center;
+	transition: all 300ms ease-in-out;
+}
+
+body.darkness {
+	background: #333;
+	color: white;
+}
+
+p {
+	line-height: 1.3
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style: none;
+}

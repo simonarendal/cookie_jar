@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+ <html>
+ <head>
+ 	<title>Hello Darkness</title>
+ 	<meta name="viewport" content="width=device-width, initial-scale=1">
+ 	<link rel="stylesheet" type="text/css" href="style.css">
+ </head>
+ <body>
+ 	<p>
+ 		<span>Current lumens: </span>
+ 		<span id="log">...</span>
+ 	</p>
+ 	<p>
+ 		<span>Is it dark? </span>
+ 		<span id="is-it">No...</span>
+ 	</p>
+ 	
+ 	<!-- The speech can't start before the user has interacted with the screen -->
+ 	<!-- So I just added a button that does nothing and removes itself when clicked -->
+ 	<button onclick="this.remove()">Click here to load the speech</button>
+ 	<ul id="voicelist">
+ 		
+ 	</ul>
+ 	<script type="text/javascript" src="main.js"></script>
+ </body>
+ </html> 
