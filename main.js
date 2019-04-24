@@ -4,7 +4,7 @@ var isDark;
 
 // What is the limit for how dark we think it is?
 // Play around with this to find a limit that makes sense for you
-var darknessThreshold = 150;
+var darknessThreshold = 10;
 
 // UNCOMMENT HERE FOR MORE
 // Uncomment the next line, if you want to see what kind of voices you have on your phone as well as their indices and languages
